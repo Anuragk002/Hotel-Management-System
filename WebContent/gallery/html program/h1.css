@@ -1,0 +1,39 @@
+#one
+{
+height:500px;
+width:500px;
+border:2px solid blue;
+}
+#up
+{
+height:148px;
+width:500px;
+border:1.5px solid blue;
+}
+#down
+{
+height:348px;
+width:500px;
+border:1.5px solid blue;
+}
+#dleft
+{
+height:348px;
+width:165px;
+border:.5px solid blue;
+float:left;
+}
+#dmid
+{
+height:348px;
+width:165px;
+border:.5px solid blue;
+float:left;
+}
+#dright
+{
+height:348px;
+width:165px;
+border:.5px solid blue;
+
+}

@@ -1,0 +1,28 @@
+img{
+	width:120px;
+	height: 100px;
+}
+
+ img{
+	float:left;
+	margin-right: 30px;
+}
+
+body{
+	 width:600px;
+	 margin: 20px auto;
+	 margin-top: 20px;
+	 }
+	 
+li{
+	display:inline;
+}	
+	 
+.preview{
+	float:right;
+	width :450px;
+}	 
+
+a{
+	color: #276056;
+}

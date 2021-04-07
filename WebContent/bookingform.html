@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="js/validateform.js"></script>
+	<title>
+		:: Imperial Hotel :: Booking </title>
+		<link rel="stylesheet" type="text/css" href="css/bookstyle.css">
+</head>
+<body>
+<form action="booking.jsp" method="post" name="bookform" onsubmit="return(validateform());">
+	<table>
+		<tr>
+			<td>
+				<div class="tab1">
+					Name:&nbsp;&nbsp;&nbsp;&nbsp;
+						<select name="name_des" id="button_name">
+							<option value="none"></option>
+							<option value="mr">Mr.</option>
+							<option value="mrs">Mrs.</option>
+							<option value="miss">Miss</option>
+							<option value="dr">Dr.</option>
+						</select>
+						<input type="text" name="fullname" id="button" placeholder="full name"><br><br>
+					Address:&nbsp;&nbsp;<input type="text" name="address" placeholder="specify complete address" id="button" required>
+						</input><br><br>
+					Country:&nbsp;
+							<select name="country" id="button" required>
+							<option value="India">India</option>
+							<option value="USA">USA</option>
+							<option value="France">France</option>
+							<option value="Nepal">Nepal</option>
+							<option value="Others">Other Country</option>
+							</select><br>
+				</div>
+			</td>
+			<td>
+				  <div class="tab2">
+					Id type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<select name="idtype" id="button">
+								<option value="aadhar">Aadhar Card</option>
+								<option value="voterId">Voter Id</option>
+								<option value="drivingLicense">Driving License</option>
+								<option value="others">Others</option>
+							</select>&nbsp;&nbsp;&nbsp;
+ 					Id Number:&nbsp;&nbsp;&nbsp;<input type="text" name="idno" id="button" required><br><br>
+				    Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="radio" name="gender" value="Male">Male
+						   <input type="radio" name="gender" value="Female">Female<br><br>
+					No. of Adults:&nbsp;<input type="text" name="no_adults" id="button" required><br><br>
+					No. of Kids:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="no_kids" id="button" required>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="tab3"> 
+					Mobile:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" name="mobile" id="button" placeholder="without country code" required><br><br>
+					Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Email" name="email" id="button" required>
+				</div>
+ 			</td>
+			<td>
+ 				<div class="tab4">
+					Arrival/CheckIn:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="date" name="checkin" id="button" required><br><br>
+					Departure/CheckOut:&nbsp;&nbsp;&nbsp;
+					<input type="date" name="checkout" id="button" required><br><br>
+					Room(s):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" name="room" id="button" required><br><br>
+					Room Type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;
+					 <select name="roomtype" id="button" required>
+						<option value="STANDARD">STANDARD</option>
+						<option value="SUPERIOR">SUPERIOR</option>
+						<option value="DELUXE">DELUXE</option>
+					</select>
+				</div>
+			</td>
+		</tr> 
+	</table>     
+		<input type="submit" name="book" value="BOOK" class="book" style = "font-size:15px">
+		<a href="index.html" class="back" > CANCEL </a>
+</form>	
+
+
+</body>
+</html>

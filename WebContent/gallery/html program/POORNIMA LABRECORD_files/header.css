@@ -1,0 +1,102 @@
+.jain-container .navbar-default{
+	position: fixed;
+	top: 0;
+	background-color:#57524f33;
+	border: none;
+	height:96px; 
+
+}
+
+.navbar-nav.nav li a{
+	color:#fff;
+   font-weight: bold;
+   font-family: Choc ICG;
+   margin-top: 31px;
+
+   	text-transform:uppercase;
+	 
+    font-size: 20px;
+       
+}
+.navbar-nav.nav li a:hover{
+	color:red;
+ font-size: 22px;
+       
+}
+
+
+.navbar-toggle .icon-bar{
+	position: relative;
+	transition: all 500ms ease-in-out;
+
+}
+ .navbar-toggle .icon-bar: nth-of-type(1){
+
+ }
+.navbar-toggle .icon-bar: nth-of-type(2) {
+	top: 1px;
+}
+.navbar-toggle .icon-bar: nth-of-type(3){
+	top: 2px;
+}
+.navbar-toggle.active .icon-bar: nth-of-type(1){
+	top: 6px;
+	transform: rotate(45deg);
+}
+.navbar-toggle.active .icon-bar: nth-of-type(2){
+	background-color: transparent;
+}
+.navbar-toggle.active .icon-bar: nth-of-type(3){
+	top: -6px;
+	transform: rotate(-45deg);
+}
+
+@media only screen and (max-width:760px) {
+	.navbar-collapse{
+		position: absolute;
+		top: 50%;
+		right: 0%;
+		clip-path: circle(0% at top right);
+		background-color: rgba(0,0,0,0.79);
+		transition: all 500ms ease-in-out;
+		width:110%;
+		bottom: none;
+
+	}
+	.jain-container .navbar-default{
+	
+	height:5px; 
+
+}
+.header-border
+{ 
+
+	height: 38px;
+	border: 0;
+	border-bottom: 1px solid #514C4D;
+}
+
+	.navbar-nav.nav li a{
+	color:#fff;
+   font-weight: bold;
+   font-family: Choc ICG;
+
+   color: #fff;
+   	text-transform: uppercase;
+	 
+    font-size: 13px;
+       
+}
+	.collapse
+	{
+		clip-path: circle(150% at top right);
+		border: none;
+
+	}
+	.navbar-nav.nav li a{
+		margin:10px;
+
+	}
+		
+}
+

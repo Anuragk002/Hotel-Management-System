@@ -1,0 +1,319 @@
+
+ 
+ #links1{
+
+ font-weight: bold;
+  text-decoration: none;
+  font-size: 19px;  
+  font-family: 'Lithos Pro Regular';
+  text-transform:1px 1px; 
+  text-transform: uppercase;
+  color:white;
+  padding: 20px;
+  text-shadow: 1px 1px;
+
+ }
+ #links1:hover
+ {
+  color:red;
+ }
+
+
+ #q
+ {
+
+    font-weight: bolder;
+    font-family: 'pristina';
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 80px;
+
+ }
+ #a
+ {
+  height: 500px;
+  width:100%;
+  margin-top: 545px;
+  background-color: rgba(0,0,0,1);
+
+ }
+  #ul2
+ {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 30px;
+ }
+
+
+
+  #r
+  { width: 100%;
+    padding: 80px;
+  font-family: 'Lithos Pro Regular';
+  font-weight: bolder;
+}
+     h1
+     {
+      font-family: 'Lithos Pro Regular';
+      text-shadow: 1px 1px;
+    }
+
+#p
+{
+background-color: rgba(0,0,0,1);
+margin-top:500px;
+width: 100%;
+padding: 40px;
+
+}
+
+
+.pic2{
+  background:url(p2.jpg);
+  width:400px;
+  height:400px;
+  background-repeat: no-repeat;
+
+}
+
+
+.pic1{
+  background:url(p3.jpg);
+  width:400px;
+  height:400px;
+  background-repeat: no-repeat;
+
+}
+
+
+
+.pic{
+  background:url(p1.jpg);
+  background-repeat: no-repeat;
+  width:400px;
+  height:400px;
+
+}
+
+
+#g
+{
+  
+padding: 30px;
+}
+strong
+{
+  font-size: 14px;
+  color:white;
+  font-family: 'Lithos Pro Regular';
+
+
+
+}
+h1
+{
+  
+  font-size: 48px;
+  font-weight: bolder;
+  color:white	;
+}
+.o
+{
+  margin-top: 250px;
+}
+footer
+{
+  background-color: rgba(0,0,0,1);
+  margin-top: 1000px;
+}
+
+
+.fa {
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.4;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+      input[type=email]
+    { width: 300px;
+      padding: 10px;
+      border-radius: 5px;
+      border-style: none;
+      background-color: #ddd;
+      color:Brown;
+      font-weight: bolder;
+    }
+        input[type=password]
+    { width: 300px;
+      padding: 10px;
+      border-radius: 5px;
+      border-style: none;
+      background-color: #ddd;
+      color:Brown ;
+      font-weight: bolder;
+    }
+        input[type=submit]
+    { width: 100px;
+      padding: 10px;
+      border-radius: 5px;
+      border-style: none;
+      background-color: #ddd;
+      color:Brown ;
+      font-weight: bolder;
+    }
+       #h1
+    {
+      color: grey;
+      font-weight: bolder;
+      font-family: 'Lithos Pro Regular';
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 40px;
+    }
+   select
+   {height: 40px;
+    margin-left:px;
+    width:100px;
+    font-family:'Lithos Pro Regular'; 
+    font-weight:bolder;
+   }
+   b
+   {
+   	 font-family:'Lithos Pro Regular'; 
+    font-weight:bolder;
+    font-size: 18px;
+
+   }
+   #div
+   {
+   	background-color:black;
+   	 height: 400px;
+   	 width: 100%;
+   }
+
+@media only screen and (max-width:760px) {
+
+
+
+   input[type=email]
+    { width: 150px;
+      padding: 10px;
+      border-radius: 5px;
+      border-style: none;
+      background-color: #ddd;
+      color:Brown ;
+      font-weight: bolder;
+    }
+        input[type=password]
+    { width: 150px;
+      padding: 10px;
+      border-radius: 5px;
+      border-style: none;
+      background-color: #ddd;
+      color:Brown ;
+      font-weight: bolder;
+    }
+#g
+{
+  margin-top: -125px;
+  margin-left: 10px;
+}
+strong
+{
+  font-size: 8px;
+color: white;
+}
+
+h1{
+  font-size: 12px;
+  color: white;
+}
+
+body
+  {
+  
+    background:url(hero2.png);
+    background-repeat: no-repeat;
+    
+
+  }
+
+
+
+  .o
+{
+  margin-top: 100px;
+  margin-left:-14px;
+}
+
+.pic{
+  background:url(p12.jpg);
+  background-repeat: no-repeat;
+ 
+
+}
+
+
+.pic1{
+  background:url(p31.jpg);
+  background-repeat: no-repeat;
+ 
+
+}
+
+.pic2{
+  background:url(p21.jpg);
+  background-repeat: no-repeat;
+ 
+
+}
+ #div
+   {
+   	background-color:black;
+   	 height: auto;
+   	 width: 100%;
+   }
+
+footer
+{
+  background-color: rgba(0,0,0,1);
+  margin-top: -70px;
+  
+}
+
+}

@@ -1,0 +1,40 @@
+#mainbox{
+height: 700px;
+width:700px;
+border:2px solid black;}
+
+#up{
+	height:349px;
+	width:698px;
+	border:1px solid black;
+}
+
+#down{
+	height:349px;
+	width:698px;
+	border:1px solid black;
+}
+
+#up1{
+	height:174px;
+	width:696px;
+	border:1px solid black;
+}
+
+#up2{
+	height:174px;
+	width:696px;
+	border:1px solid black;
+}
+
+#down1{
+	height:174px;
+	width:696px;
+	border:1px solid black;
+}
+
+#down2{
+	height:170px;
+	width:696px;
+	border:1px solid black;
+}

@@ -1,0 +1,54 @@
+#one
+{
+height:500px;
+width:500px;
+border:2px solid blue;
+}
+#up
+{
+height:248px;
+width:500px;
+border:2px solid blue;
+}
+#upleft
+{
+height:248px;  
+width:148px;
+border:1px solid blue;
+float:left;
+}
+#upmid
+{
+height:248px;
+width:198px;
+border:1px solid blue;
+float:left;
+}
+#upright
+{
+height:248px;
+width:148px;
+border:1px solid blue;
+float:left;	
+}
+#down
+{
+height:248px;
+width:500px;
+border:2px solid blue;
+
+}
+#left
+{
+height:248px;
+width:248px;
+border:1px solid blue;
+float:left;
+}
+#right
+{
+height:248px;
+width:248px;
+border:1px solid blue;
+float:right;
+}
